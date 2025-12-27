@@ -1214,13 +1214,13 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-slate-50 text-gray-800 font-sans">
+    <div className="flex flex-col h-screen bg-slate-50 text-gray-800 font-sans" ref={containerRef}>
       {/* Header */}
       <header className="bg-white border-b border-gray-200 px-6 py-3 flex items-center justify-between shrink-0 shadow-sm z-20">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2 text-blue-600">
             <BarChart3 className="w-6 h-6" />
-            <h1 className="text-xl font-bold tracking-tight">BA-chart</h1>
+            <h1 className="text-xl font-bold tracking-tight">BAchart</h1>
           </div>
           <div className="h-6 w-px bg-gray-300 mx-2"></div>
           <input 
