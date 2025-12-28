@@ -765,7 +765,7 @@ export default function App() {
       name: 'Striker2', 
       color: 'bg-green-500', 
       checkOverlap: true,
-      ex: [{ id: 'ex-2', start: 30, castTime: 0, duration: 45 }],
+      ex: [{ id: 'ex-2', start: 15, castTime: 0, duration: 45 }],
       ns: { start: MIN_ELAPSED_TIME, castTime: 0, gap: 30, duration: 10, isUnique2: false } 
     },
     { 
@@ -773,7 +773,7 @@ export default function App() {
       name: 'Striker3', 
       color: 'bg-teal-500', 
       checkOverlap: true,
-      ex: [{ id: 'ex-3', start: 75, castTime: 0, duration: 45 }],
+      ex: [{ id: 'ex-3', start: 30, castTime: 0, duration: 45 }],
       ns: { start: MIN_ELAPSED_TIME, castTime: 0, gap: 30, duration: 10, isUnique2: false } 
     },
     { 
@@ -781,7 +781,7 @@ export default function App() {
       name: 'Striker4', 
       color: 'bg-indigo-500', 
       checkOverlap: true,
-      ex: [{ id: 'ex-4', start: 120, castTime: 0, duration: 45 }],
+      ex: [{ id: 'ex-4', start: 60, castTime: 0, duration: 45 }],
       ns: { start: MIN_ELAPSED_TIME, castTime: 0, gap: 30, duration: 10, isUnique2: false } 
     },
     { 
@@ -789,7 +789,7 @@ export default function App() {
       name: 'Special1', 
       color: 'bg-purple-500', 
       checkOverlap: true,
-      ex: [{ id: 'ex-5', start: 165, castTime: 0, duration: 30 }],
+      ex: [{ id: 'ex-5', start: 90, castTime: 0, duration: 30 }],
       ns: { start: MIN_ELAPSED_TIME, castTime: 0, gap: 30, duration: 10, isUnique2: false } 
     },
     { 
@@ -797,7 +797,7 @@ export default function App() {
       name: 'Special2', 
       color: 'bg-rose-500', 
       checkOverlap: true,
-      ex: [{ id: 'ex-6', start: 195, castTime: 0, duration: 13 }],
+      ex: [{ id: 'ex-6', start: 120, castTime: 0, duration: 13 }],
       ns: { start: MIN_ELAPSED_TIME, castTime: 0, gap: 30, duration: 10, isUnique2: false } 
     },
   ], []);
